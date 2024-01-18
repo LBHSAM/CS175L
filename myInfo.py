@@ -4,8 +4,10 @@
 
 #myInfo
 
-•Anthony Mendes
+print("•Anthony Mendes")
 
-•Monmouth street, Long Branch, NJ, and 07740
+print("•Monmouth street, Long Branch, NJ, and 07740")
 
-•1 800 342 2231
+print("•1 800 342 2231")
+
+
