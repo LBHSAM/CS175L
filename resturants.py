@@ -16,12 +16,12 @@ def filter_restaurants(vegetarian, vegan, gluten_free):
     for restaurant, options in restaurants.items():
         if (not vegetarian or options["Vegetarian"]) and \
            (not vegan or options["Vegan"]) and \
-           (not gluten_free or options["Gluten-Free"]):
+           (not gluten_free or options["Gluten Free"]):
             choices.append(restaurant)
     return choices
 
 def main():
-    vegetarian = input("Is anyone in your party vegetarian? ").lower() == 'yes'
+    vegetarian = input("Is anyone in your party vegitarian? ").lower() == 'yes'
     vegan = input("Is anyone in your party vegan? ").lower() == 'yes'
     gluten_free = input("Is anyone in your party gluten-free? ").lower() == 'yes'
 
