@@ -1,3 +1,6 @@
+#Anthony Mendes
+#cs 102
+#restaurants
 restaurants = {
     "Joes Gourmet Burgers": {"Vegetarian": False, "Vegan": False, "Gluten Free": False},
     "Main Street Pizza Company": {"Vegetarian": True, "Vegan": False, "Gluten Free": True},
