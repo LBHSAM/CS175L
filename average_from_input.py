@@ -1,3 +1,5 @@
+#anthony mendes
+# cs175
 def calculate_average(numbers):
     total = sum(numbers)  # Calculate the sum of all numbers in the list
     return total / len(numbers)  # Divide the total sum by the number of numbers to get the average
