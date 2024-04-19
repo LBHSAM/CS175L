@@ -24,7 +24,7 @@ def plot_pie_chart(expenses):
 
     plt.figure(figsize=(8, 8))
     plt.pie(amounts, labels=labels)
-    plt.title('Expense Distribution')
+    plt.title('Monthly Expenses')
     plt.show()
 
 def main():
